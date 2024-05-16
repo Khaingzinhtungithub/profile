@@ -1,0 +1,369 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.container{ 
+    margin-top: 0px;
+    height: 90vh;
+    border: none;
+    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    margin: 20px 50px;
+    border-radius: 12px;
+
+}
+.nav>h1{
+    color: rgb(179, 14, 179);
+    font-size: 30px;
+    margin: 2px;
+}
+.nav{
+    height: 50px;
+    border: none;
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link > por{
+    text-decoration: underline;
+}
+.card>h1{
+    color: rgb(179, 14, 179);
+    font-size: 30px;
+    margin: 10px;
+}
+h1 > span{
+    color: #ffffff;
+    
+}
+
+.link{
+    color: #ffffff;
+    padding-left: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+.link-item{
+    height: 60px;
+    border: none;
+    background-color: rgb(28, 28, 28);
+  
+}
+
+@media screen and (max-width:700px){
+    .link a{
+        float: none;
+        display: block;
+    }
+}
+
+.card>h2{
+    font-size: 40px;
+    font-weight: bold;
+    transform-origin: center center 25px;
+}
+.card>h2.out{
+    transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+}
+.card >h2 > span{
+    color: rgb(179, 14, 179);
+    font-size: 40px;
+}
+.card{
+    width: 500px;
+    height: 100px;
+    padding: 80px;
+    
+}
+.card>p{
+    font-size: 16px;
+    color: rgb(52, 51, 51);
+}
+.card-img{
+    display: flex;
+    margin: 70px;
+    
+}
+
+button{
+    height: 25px;
+    margin: 15px;
+   
+}
+
+.btn > button{
+    height: 25px;
+    margin: 40px 10px;
+    background: linear-gradient(to right, #3b63da 0%, #cb98ed 51%, #94bbe9 100%);
+}
+.btn1{
+    border: none;
+    border-radius: 4px;
+    width: 120px;
+    height: 30%;
+   
+}
+.btn2{
+   
+    border: none;
+    border-radius: 4px;
+    width: 120px;
+    height: 100px;   
+}
+.text > p{
+    color: black;
+    
+    text-transform: capitalize;
+}
+.homepage > h1{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding: 0px 150px;
+}
+.homepage{
+    margin: 200px 50px;
+    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    border: none;
+    border-radius: 8px;
+    box-shadow:5px 5px #bb63a2;
+    padding: 30px;
+}
+.page> img{
+    border: none;
+    border-radius: 1px;
+    width: 400px;
+    height: 400px;
+    margin-right: 10px;
+}
+.page{
+    display: flex;
+    margin-left:100px ;
+    padding: 50px 50px;
+}
+.text>h2{
+    font-size: 20px;
+}
+.text>h3{
+    font-size: 34px;
+}
+h3>span{
+    color: rgb(179, 14, 179);
+}
+.text>p{
+    font-size: 18px;
+}
+.text{
+    padding: 0px 50px;
+   
+}
+.bttn1>.btn1{
+    margin-top: 50px;
+    padding: 10px;
+    background: linear-gradient(to right, #3b63da 0%, #cb98ed 51%, #94bbe9 100%);
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.skill>h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.skill>h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.skill>h2{
+    text-align: center;
+    font-size: 30px;
+}
+.skill{ 
+    margin-top: 0px;
+    height: 90vh;
+    border: none;
+    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    margin: 20px 50px;
+    border-radius: 12px;
+
+}
+.skill-div{
+    margin: 0px 50px;
+    display: flex;
+
+}
+.experience>h4{
+    font-size: 22px;
+}
+.experience{
+    margin: 100px 30px;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 20px;
+}
+.icon-div{
+    display: block;
+    margin-top:10px ;
+}
+.icon-sub{
+    display: flex; 
+}
+.icon{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-header{
+    display: flex;
+    margin-top: 30px;
+}
+.box>p{
+    color: rgb(179, 14, 179);
+    font-size: 20px;
+
+}
+.box>p>span{
+    color: black;
+    font-size: 20px;
+    
+}
+.box{
+    padding-right: 50px;
+}
+.project{
+    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    border: none;
+    border-radius: 12px;
+    margin: 50px 50px;
+    box-shadow:5px 5px #bb63a2;
+}
+.pj-title>h1{
+    text-align: center;
+    font-size: 16px;
+}
+.pj-title>h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.pj-title{
+    margin: 150px 50px;
+    padding: 20px;
+}
+.pj-box{
+    display: flex;
+    margin: 50px 150px;
+}
+.pj-text>p{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.pj-text{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0px 20px;
+    border-radius: 12px;
+}
+
+.btn5{
+    margin: 20px 70px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    color: blue;
+    border: none;
+    background: linear-gradient(to right,  #3b63da 0%, #cb98ed 51%, #94bbe9 100%);
+    
+}
+.contact-div>h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.contact-div>h1>span{
+    font-size: 30px;
+    color: blueviolet;
+    
+}
+.contact{
+    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    border: none;
+    border-radius: 12px;
+    margin: 150px 70px;
+    box-shadow:5px 5px #bb63a2;
+
+}
+.contact-div{
+    padding-left: 70px;
+}
+.con-box{
+    display: flex;
+}
+.con-mail>p{
+    text-align: center;
+}
+.con-mail>h4{
+    text-align: center;
+}
+.con-mail{
+    border: none;
+    margin: 10px 20px;
+    background: linear-gradient(to right, rgb(179, 14, 179) 0%, #a6c1ee 51%, #bb63a2 100%);
+    width: 300px;
+    height: 120px;
+}
+input{
+    width: 76%;
+    height: 20px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+.inp4>input{
+    height: 100px;
+    padding-bottom: 10px;
+}
+.inp>input{
+    height: 80px;
+}
+.con-btn>.btn{
+    width: 150px;
+    height: 50px;
+    border: none;
+    margin: 20px 0px;
+    background: linear-gradient(to right, #3b63da 0%, #cb98ed 51%, #94bbe9 100%);
+    margin-bottom: 10px;
+}
+.bbox1{
+    background-color: #bb63a2;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.bbox>p{
+    text-align: center;
+    font-size: 18px;
+}
+.bbox>span{
+    color: #bb63a2;
+}
